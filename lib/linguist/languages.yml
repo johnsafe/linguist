@@ -27,6 +27,15 @@
 #
 # Please keep this list alphabetized. Capitalization comes before lower case.
 
+1C Enterprise:
+  type: programming
+  color: "#814CCC"
+  extensions:
+  - .bsl
+  - .os
+  tm_scope: source.bsl
+  ace_mode: text
+
 ABAP:
   type: programming
   color: "#E8274B"
@@ -80,6 +89,15 @@ APL:
   - aplx
   - dyalog
   tm_scope: source.apl
+  ace_mode: text
+
+ASN.1:
+  type: data
+  color: "#aeead0"
+  extensions:
+  - .asn
+  - .asn1
+  tm_scope: source.asn
   ace_mode: text
 
 ASP:
@@ -2931,6 +2949,7 @@ Pony:
 
 PostScript:
   type: markup
+  color: "#da291c"
   extensions:
   - .ps
   - .eps
@@ -3155,7 +3174,7 @@ REXX:
   - .rexx
   - .pprx
   - .rex
-  tm_scope: none
+  tm_scope: source.rexx
   ace_mode: text
 
 RHTML:
@@ -3233,7 +3252,7 @@ Rebol:
 
 Red:
   type: programming
-  color: "#ee0000"
+  color: "#f50000"
   extensions:
   - .red
   - .reds
@@ -3478,7 +3497,7 @@ Sass:
 Scala:
   type: programming
   ace_mode: scala
-  color: "#DC322F"
+  color: "#c22d40"
   extensions:
   - .scala
   - .sbt
